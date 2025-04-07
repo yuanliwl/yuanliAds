@@ -20,13 +20,6 @@ public class NewInsertAdUtils {
     private TTAdNative mTTAdNative;
     private AdStateListener mAdStateListener;
 
-//    public interface AdStateListener {
-//        void onSuccses();
-//        void onError(String msg);
-//        void onClose();
-//        void onRenderFail(String msg);
-//    }
-
     public void loadInsertAd(Activity context,AdStateListener adStateListener) {
         mContext = context;
         mAdStateListener = adStateListener;
