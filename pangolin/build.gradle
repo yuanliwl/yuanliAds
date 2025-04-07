@@ -43,6 +43,6 @@ dependencies {
     implementation project(path :':base')
 
 //    api "com.pangle.cn:mediation-sdk:6.1.2.5"  //融合SDK
-    api  files('libs/open_ad_sdk_6.7.0.6.aar')
+    compile  files('libs/open_ad_sdk_6.7.0.6.aar')
 
 }
